@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
+    <script type="text/javascript">
+        var s ="";
+        
+        while (s!= "mypassword")
+        {
+        s=prompt("please enter your password");
+        if (s=="mypassword")
+        {
+        window.location.href="correct.html"; //page to redirect if password entered is correct
+        
+        }
+        else
+        {
+        alert("Incorrect password-Try again");
+        
+        }
+        }
+        </script>
+  
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -138,7 +157,7 @@
             <div class="about_container container grid">
                 <img src="./Img/Capture.PNG" alt="" class="about_img">
                 <div class="about_data">
-                    <p class="about_description">I'm Web designer and developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                    <p class="about_description">I'm Brand and Digital Content Designer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
                     <div class="about_info">
                         <div>
                             <span class="about_info-title">+2</span>
@@ -922,7 +941,8 @@
     <script src="https://dev.dakidarts.com/wixa/assets/js/swiper-bundle.min.js"></script>
     <script src="https://dev.dakidarts.com/wixa/assets/js/main.js"></script>
 
-    
+
+ 
 
 
 </body>
