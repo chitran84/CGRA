@@ -1,933 +1,238 @@
-<!DOCTYPE html>
 
-<html lang="en">
-
-  
-<head>
-
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="./Img/Favi.png" type="image/x-icon">
-
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="https://dev.dakidarts.com/wixa/assets/css/swiper-bundle.min.css">
-    
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="https://dev.dakidarts.com/wixa/assets/css/styles.css">
-
-    <!--==================== MAIN JS ====================-->
-
-
-    <!--==================== SWIPER JS ====================-->
-
-
-    <title>CG Portfolio</title>
-</head>
-
+    <title> Responsive Portfolio Website | Code4education </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">Chitran Graham</a>
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list grid">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link active-link">
-                            <i class="uil uil-estate nav_icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#about" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i> About
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#skills" class="nav_link">
-                            <i class="uil uil-heart nav_icon"></i> Skills
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#services" class="nav_link">
-                            <i class="uil uil-suitcase-alt nav_icon"></i> Experience
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#portfolio" class="nav_link">
-                            <i class="uil uil-scenery nav_icon"></i> Portfolio
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="uil uil-location-arrow nav_icon"></i> Contact Me
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-multiply nav_close" id="nav-close"></i>
-            </div>
-            <div class="nav_btns">
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
 
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home_container container grid">
-                <div class="home_content grid">
-                    <div class="home_social">
-                        <a href="https://github.com/chitran84" target="_blank" class="home_social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/chitran-graham/" target="_blank" class="home_social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                    </div>
-
-                    <div class="home_img">
-                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home_blob-img" x=12 y=18 href="./Img/Component 10.png"/>
-                                </g>
-                            </svg>
-                    </div>
-                    <div class="home_data">
-                        <h1 class="home_title">Hi! I am Chitran</h1>
-                        <h3 class="home_subtitle">Brand and Digital Content Adviser (UX/UI)</h3>
-                        <p class="home_description">I an experience UX/UI designer. I specialize in content designing and product solutions.</p>
-                        <a href="#contact" class="button button--flex">
-                                Hire Me <i class="uil uil-message button_icon"></i>
-                            </a>
-                    </div>
-                </div>
-                <div class="home_scroll">
-                    <a href="#about" class="home_scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-                        <span class="home_scroll-name">
-                                Scroll down
-                            </span>
-                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
-                    </a>
-                </div>
-            </div>
-
-        </section>
-
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <h2 class="section_title">About Me</h2>
-            <span class="section_subtitle">Introduction</span>
-            <div class="about_container container grid">
-                <img src="./Img/Capture.PNG" alt="" class="about_img">
-                <div class="about_data">
-                    <p class="about_description">I'm Brand and Digital Content Designer, with extensive knowledge and years of experience. I've experience working with web technologies design and delivering quality work.</p>
-                    <div class="about_info">
-                        <div>
-                            <span class="about_info-title">+1</span>
-                            <span class="about_info-name">Years <br> experience</span>
-                        </div>
-                        <div>
-                            <span class="about_info-title">+41 Projects</span>
-                            <span class="about_info-name">Completed <br> project</span>
-                        </div>
-                        <div>
-                            <span class="about_info-title">+4</span>
-                            <span class="about_info-name">Companies <br> worked</span>
-                        </div>
-
-                    </div>
-
-                    <div class="about_buttons">
-                        <a download="" href="https://docs.google.com/document/d/1d2MpYRgiRS0ROP0HH_TLZcjzZpZIUgLC/edit?usp=sharing&ouid=110570538936122597886&rtpof=true&sd=true" target="_blank" class="button button--flex">
-                                Download Resume<i class="uil uil-download-alt button_icon"></i>
-                            </a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <section class="skills section" id="skills">
-            <h2 class="section_title">Skills</h2>
-            <span class="section_subtitle">Technical Level</span>
-            <div class="skills_container container grid">
-                <div>
-                    <!--==================== SKILLS 1 ====================-->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-brackets-curly skills_icon"></i>
-                            <div>
-                                <h1 class="skills_title">Front End Development</h1>
-                                <span class="skills_subtitle">
-                                       More than 2 years of experience.
-                                    </span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">HTML</h3>
-                                    <span class="skills_number">95%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_html"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">CSS</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_css"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">JavaScript Framework</h3>
-                                    <span class="skills_number">85%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_js"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">React Framework</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_react"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!--==================== SKILLS 2 ====================-->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-server-connection skills_icon"></i>
-                            <div>
-                                <h1 class="skills_title">Top Personal skills</h1>
-                                <span class="skills_subtitle">
-                                    More than 5 years of experience.
-                                    </span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
-                        </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Design landscaping</h3>
-                                    <span class="skills_number">85%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_php"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Photography</h3>
-                                    <span class="skills_number">70%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_node"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Customer PR</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_python"></span>
-                                </div>
-                            </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Model Building</h3>
-                                    <span class="skills_number">80%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_firebase"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <!--==================== SKILLS 3 ====================-->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-illustration skills_icon" skills_icon "></i>
-                                <div>
-                                    <h1 class="skills_title ">Design</h1>
-                                    <span class="skills_subtitle ">
-                                    More than 1 year of experience.
-                                    </span>
-                                </div>
-                                <i class="uil uil-angle-down skills_arrow "></i>
-                            </div>
-                            <div class="skills_list grid ">
-                                <div class="skills_data ">
-                                    <div class="skills_titles ">
-                                    <h3 class="skills_names ">Miro</h3> 
-                                    <span class="skills_number ">95%</span>
-                                    </div>
-                                    <div class="skills_bar ">
-                                        <span class="skills_percentage skills_photoshop "></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data ">
-                                    <div class="skills_titles ">
-                                    <h3 class="skills_name ">In-Vision</h3> 
-                                    <span class="skills_number ">80%</span>
-                                    </div>
-                                    <div class="skills_bar ">
-                                        <span class="skills_percentage skills_illustrator "></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data ">
-                                    <div class="skills_titles ">
-                                    <h3 class="skills_name ">Figma</h3> 
-                                    <span class="skills_number ">95%</span>
-                                    </div>
-                                    <div class="skills_bar ">
-                                        <span class="skills_percentage skills_figma "></span>
-                                    </div>
-                                </div>
-                                <div class="skills_data ">
-                                    <div class="skills_titles ">
-                                    <h3 class="skills_name ">Adobe XD</h3> 
-                                    <span class="skills_number ">70%</span>
-                                    </div>
-                                    <div class="skills_bar ">
-                                        <span class="skills_percentage skills_sketch "></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-        
-            </section>
-        
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-                <h2 class="section_title ">Qualifications</h2>
-                <span class="section_subtitle ">My extraordinary journey</span>
-
-                <div class="qualification_container container ">
-                    <div class="qualification_tabs ">
-                        <div class="qualification_button button--flex qualification_active" data-target='#education'>
-                            <i class="uil uil-graduation-cap qualification_icon "></i>
-                            Education
-                        </div>
-                        <div class="qualification_button button--flex" data-target='#work'>
-                            <i class="uil uil-suitcase qualification_icon "></i>
-                            Work
-                        </div>
-                    </div>
-                    <div class="qualification_sections ">
-      <!--==================== QUALIFICATION Content 1 ====================-->
-                        <div class="qualification_content qualification_active" data-content id='education'>
-                 <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification_data ">
-                                <div>
-                                    <h3 class="qualification_title ">UX/UI Design</h3>
-                                    <span class="qualification_subtitle ">Monash University</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2021 - 2022
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification_data ">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title ">IT Networking</h3>
-                                    <span class="qualification_subtitle ">Upskill Institute</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2018 - 2019
-                                    </div>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification_data ">
-                                <div>
-                                    <h3 class="qualification_title ">Info Systems</h3>
-                                    <span class="qualification_subtitle ">RMIT</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2013 - 2015
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 4 ====================-->
-                            <div class="qualification_data ">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title ">Business Analyst</h3>
-                                    <span class="qualification_subtitle ">Multimedia University</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2008 - 2011
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-      <!--==================== QUALIFICATION Content 2 ====================-->
-                        <div class="qualification_content" data-content id='work'>
-                 <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification_data ">
-                                <div>
-                                    <h3 class="qualification_title ">Brand and Digital Content Advisor</h3>
-                                    <span class="qualification_subtitle ">Dept of Education and Training </span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2022 - Present
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification_data ">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <!--<span class="qualification_line "></span>-->
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title ">UX/UI Info Technology</h3>
-                                    <span class="qualification_subtitle ">Austbrush</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2021 - 2022
-                                    </div>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification_data ">
-                                <div>
-                                    <h3 class="qualification_title ">IT Analyst</h3>
-                                    <span class="qualification_subtitle ">Pinsent Masons</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2020 - 2021
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <span class="qualification_line "></span>
-                                </div>
-                            </div>
-                 <!--==================== QUALIFICATION 4 ====================-->
-                            <div class="qualification_data ">
-                                <div></div>
-                                <div>
-                                    <span class="qualification_rounder "></span>
-                                    <!--<span class="qualification_line "></span> -->
-                                </div>
-                                <div>
-                                    <h3 class="qualification_title ">IT Administrator</h3>
-                                    <span class="qualification_subtitle ">Dept of Education and Training</span>
-                                    <div class="qualification_calendar ">
-                                        <i class="uil uil-schedule "></i>
-                                        2017 - 2020
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-        </section>
-
-        <!--==================== SERVICES ====================-->
-        <section class="services section " id="services">
-            <h3 class="section_title">Experience</h3>
-            <span class="section_subtitle">What I Offer</span>
-
-            <div class="services_container container grid">
-            
-        <!--==================== SERVICES 1 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-object-group services_icon"></i>
-                        <h3 class="services_title">UX <br>Design</h3>
-                    </div>
-                    
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">User Experience <br>Designer</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop the user defined problems.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I check for accessibility.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create user research and personas.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create prototype.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        <!--==================== SERVICES 2 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-window services_icon"></i>
-                        <h3 class="services_title">UI Design <br>Designer</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">User Interface<br>Designer</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop the user interface POV.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I check for accessibility.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create ui element interactions.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        <!--==================== SERVICES 3 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-server-connection services_icon"></i>
-                        <h3 class="services_title">Front-End <br>Development</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Front-End <br>Development</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop front end portion websites.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create mobile Responsive design.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create Web\page using HTML, CSS and JavaScript.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I migrate and publish the site.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        <!--==================== SERVICES 4 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-illustration services_icon"></i>
-                        <h3 class="services_title">Brand<br>Design</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Brand<br>Design</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop the user interface.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create user testing for branding.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I get feedback from stakeholder.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            
-        <!--==================== SERVICES 5 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-chart-line services_icon"></i>
-                        <h3 class="services_title">SEO/SEM<br>Analytics</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">SEO/SEM<br>Analytics</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop the hotjar for webpage</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>Create heatmap for the sites</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create data analytics.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop keyword search.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            
-        <!--==================== SERVICES 6 ====================-->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-layers-alt services_icon"></i>
-                        <h3 class="services_title">Ads <br>Animation</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services_button">
-                            View more 
-                            <i class="uil uil-arrow-right button_icon"></i>
-                    </span>
-                    <div class="services_modal">
-                        <div class="services_modal-content">
-                            <h4 class="services_modal-title">Ads <br>Animation</h4>
-                            <i class="uil uil-times services_modal-close"></i>
-
-                            <ul class="services_modal-services grid">
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop Animation using Figma.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I develop animation using Miro.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I create HTML, CSS and JavaScript for animation.</p>
-                                </li>
-                                <li class="services_modal-service">
-                                    <i class="uil uil-check-circle service_modal-icon"></i>
-                                    <p>I redevelop ads based on user needs.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section " id="portfolio">
-            <h2 class="section_title">Portfolio</h2>
-            <span class="section_subtitle">Most recent work</span>
-
-            <div class="portfolio_container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio_content grid swiper-slide">
-                        <img src="./Img/Screen Shot 2022-02-10 at 6.51 1.png" alt="" class="portfolio_img">
-
-                        <div class="portfolio_data">
-                            <h3 class="portfolio_title">Teamder</h3>
-                            <p class="portfolio_description">
-                               Mobile and Website adaptable with UX/UI components. Teamder Responsive Web Design.
-                            </p>
-                            <a href="https://docs.google.com/presentation/d/1hNEavOg8Han01aAA2O5xJyot0w11hVpb/edit?usp=sharing&ouid=110570538936122597886&rtpof=true&sd=true" target="_blank" class="button button--flex button--small portfolio_button">
-                                View
-                                <i class="uil uil-eye button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio_content grid swiper-slide">
-                        <img src="./Img/Travel Bub dashboard.png" alt="" class="portfolio_img">
-
-                        <div class="portfolio_data">
-                            <h3 class="portfolio_title">Travel Bubble</h3>
-                            <p class="portfolio_description">
-                                Travel Bubble is a mobile and website resposive design for travellers.
-                            </p>
-                            <a href="https://docs.google.com/presentation/d/1vu8RbrBgwrYuidwt3OE-2Xliesu7AhZL/edit?usp=sharing&ouid=110570538936122597886&rtpof=true&sd=true" target="_blank" class="button button--flex button--small portfolio_button">
-                                View
-                                <i class="uil uil-eye button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio_content grid swiper-slide">
-                        <img src="./Img/Augmented Reality.png" alt="" class="portfolio_img">
-
-                        <div class="portfolio_data">
-                            <h3 class="portfolio_title">Augmented Reality</h3>
-                            <p class="portfolio_description">
-                                Augmented Reality with UI designs for users and tradies for precise measurement.  
-                            </p>
-                            <a href="https://www.figma.com/file/ZM7eCfdlGwoGZit90nHjjo/Augmented-Reality?node-id=6%3A695" target="_blank" class="button button--flex button--small portfolio_button">
-                                View
-                                <i class="uil uil-eye button_icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 4 ====================-->                    
-                </div>
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev ">
-                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
-                </div>
-                 
-            </div>
-        </section>
-
-        <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-            <div class="project_bg">
-                <div class="project_container container grid">
-                    <div class="project">
-                        <h2 class="project_title">
-                            You got a new project?
-                        </h2>
-                        <p class="project_description">
-                            Contact me now and let's work on your new project.
-                        </p>
-                        <a href="#contact" class="button button--flex button--white">
-                            Contact Me <i class="uil uil-location-arrow project_icon button_icon"></i> 
-                        </a>
-                    </div>
-                    <img src="./Img/Capture-removebg-preview.png" alt="" class="project_img">
-                </div>
-            </div>
-
-        </section>
-
-        <!--==================== TESTIMONIAL ====================-->
-     
-        <!--==================== TESTIMONIAL 1 ====================-->
-                   
-                     
-        <!--==================== TESTIMONIAL 2 ====================-->
-                 
-
-        <!--==================== TESTIMONIAL 3 ====================-->
-    
-
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section " id="contact">
-            <h2 class="section_title">Contact Me</h2>
-            <span class="section_subtitle">Get in touch</span>
-
-            <div class="contact_container container grid">
-                <div>
-                    <div class="contact_info">
-                        <i class="uil uil-phone contact_icon"></i>
-                        <div>
-                            <h3 class="contact_title">Call Me</h3>
-                            <span class="contact_subtitle">0426 538 950</span>
-                        </div>
-                    </div>
-                    <div class="contact_info">
-                        <i class="uil uil-envelope contact_icon"></i>
-                        <div>
-                            <h3 class="contact_title">Email</h3>
-                            <span class="contact_subtitle">chitran.graham@outlook.com</span>
-                        </div>
-                    </div>
-                    <div class="contact_info">
-                        <i class="uil uil-map-marker contact_icon"></i>
-                        <div>
-                            <h3 class="contact_title">Location</h3>
-                            <span class="contact_subtitle">Melbourne, Victoria</span>
-                        </div>
-                    </div>
-                </div>
-                <!--==================== CONTACT ME SEND Message ====================-->
-                
-                <form action="" class="contact_form grid">
-                    <div class="contact_inputs grid">
-                        <div class="contact_content">
-                            <label for="Name" class="contact_label">
-                                Name
-                            </label>
-                            <input type="text" class="contact_input">
-                        </div>
-                        <div class="contact_content">
-                            <label for="Email" class="contact_label">
-                                Email
-                            </label>
-                            <input type="email" class="contact_input">
-                        </div>
-                        
-                    </div>
-                    <div class="contact_content">
-                        <label for="Company" class="contact_label">
-                            Company
-                        </label>
-                        <input type="text" class="contact_input">
-                    </div>
-                    <div class="contact_content">
-                        <label for="" class="contact_label">
-                            Message
-                        </label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
-                    </div>
-                    <div>
-                    <a href="https://formsubmit.co/el/xupisa" class="button button--flex">
-                        Send Message
-                        <i class="uil uil-message button_icon"></i>
-                    </a>
-                     </div>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer ">
-        <div class="footer_bg">
-            <div class="footer_container container grid">
-                <div>
-                    <h1 class="footer_title">Chadi</h1>
-                    <span class="footer_subtitle">UX/UI Designer & Developer</span>
-                </div>
-                <ul class="footer_links">
-                    <li>
-                       <a href="#services" class="footer_link">Experience</a> 
-                    </li>
-                    <li>
-                       <a href="#portfolio" class="footer_link">Portfolio</a> 
-                    </li>
-                    <li>
-                       <a href="#contact" class="footer_link">Contact</a> 
-                    </li>
-                </ul>
-            </div>
-            <p class="footer_copy">&#169;Chitran Graham</p>
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Wominjeka.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/chitran-graham/"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-    </footer>
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Chitran Graham</div>
+        <div class="text-three">Brand and Digital Content Advisor</div>
+        <div class="text-four">Melbourne, Victoria</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
 
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup_icon"></i>
-    </a>
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="/Img/Component 10.png" alt="Portfolio">
+        </div>
+        <div class="right">
+          <div class="topic">Design and Development in my Passion</div>
+          <p>I'm a Brand and Digital Content Adviser (UX/UI) for Department of Education and Training. I specialize in content designing, product solutions, from the initial ideation process, all the way to development and implementation.</p>
+          <a href="https://docs.google.com/document/d/1wp8zK2AlhQAhol_UXhvUb_7zKbb0rPQ0/edit?usp=sharing&ouid=110570538936122597886&rtpof=true&sd=true" target="blank" div class="button">
+            <button >Resume</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- My Skill Section Start -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>Skills Set</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Design and Developing knowledge</div>
+          <p>I enjoy getting constructive feedback and finding solutions from everyday challenges and transforming them into a viable product or services.I have an extensive hand on experience in using Single Digital Presence, SharePoint, Figma, Miro, Invision, Storyboard, Monday.com (Kanban, Trello), HTML and Google Analytics.</p>
+          <div class="experience">
+            <div class="num">2</div>
+            <div class="exp">Years Of <br> Experience</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">UX</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">UI</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">85%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>Experience</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Web Development</div>
+          <p>I have vast experience in building web content and creating information architecture.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Ux/Ui design</div>
+          <p>As a Designer I use many design software such as Figma, Miro, Invision, and Storyboard.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Communication</div>
+          <p>I have worked with various different area of digital media and communication content.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-wordpress"></i>
+          </div>
+          <div class="topic">CMS Design</div>
+          <p>With over 2 years experience in using various content management systems.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-quidditch"></i>
+          </div>
+          <div class="topic">Branding</div>
+          <p>With deeper understanding on redesigning brand and accessibilty screening.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">Research and Development</div>
+          <p>Extensive knowledge in research and development before develping a product.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="https://dev.dakidarts.com/wixa/assets/js/swiper-bundle.min.js"></script>
-    <script src="https://dev.dakidarts.com/wixa/assets/js/main.js"></script>
+  <!-- Contact Me Section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact ME</span></div>
+      <div class="text">
+        <div class="topic">Contact</div>
+        <p>You can reach me by clicking the buttom below.</p>
+        <a href="mailto:chitran.graham@outlook.com"  target="blank" div class="button">
+          <button>Let's Chat</button>
+        </div></a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span><a href="#">254brady</a> | © 2015-2021 All Rights Reserved.</span>
+    </div>
+  </footer>
 
- 
+   
 
-
+  <script src="script.js"></script>
 </body>
-
 </html>
+// Sticky Navigation Menu Js
+<script>
+let nav = document.querySelector("nav");
+let scrollBtn = document.querySelector(".scroll-button a");
+
+let val;
+
+window.onscroll = function() {
+  if(document.documentElement.scrollTop > 20){
+    nav.classList.add("sticky");
+    scrollBtn.style.display = "block";
+  }else{
+    nav.classList.remove("sticky");
+    scrollBtn.style.display = "none";
+  }
+}
+
+// Side Navigation Menu Js
+let body = document.querySelector("body");
+let navBar = document.querySelector(".navbar");
+let menuBtn = document.querySelector(".menu-btn");
+let cancelBtn = document.querySelector(".cancel-btn");
+
+menuBtn.onclick = function() {
+  navBar.classList.add("active");
+  menuBtn.style.opacity = "0";
+  menuBtn.style.pointerEvents = "none";
+  body.style.overflowX = "hidden";
+  scrollBtn.style.pointerEvents = "none";
+}
+
+cancelBtn.onclick = function() {
+  navBar.classList.remove("active");
+  menuBtn.style.opacity = "1";
+  menuBtn.style.pointerEvents = "auto";
+  body.style.overflowX = "auto";
+  scrollBtn.style.pointerEvents = "auto";
+}
+
+// Side Navigation Bar Close While We click On Navigation Links
+
+let navLinks = document.querySelectorAll(".menu li a");
+for (var i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener("click" , function() {
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+  });
+}
+</script>
+
