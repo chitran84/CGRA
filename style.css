@@ -133,9 +133,15 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
+.home .text-top{
+  font-size:25px;
+  margin-top: -10rem;
+}
+
 .home .text-one{
   font-size:25px;
   color:var(--black-color);
+  margin-top: 5rem;
 }
 .home .text-two{
   color:var(--black-color);
@@ -173,6 +179,7 @@ nav.sticky .menu-btn{
   background-color: var(--white-color);
   color:var(--primary-color);
 }
+
 
 /* About Section Styling */
 section{
@@ -224,6 +231,7 @@ section .title span::after{
   width:400px;
   object-fit: cover;
   border-radius: 12px;
+  margin-top: -1rem;
 }
 .about .about-details .right{
   width:55%;
@@ -314,6 +322,10 @@ section .button button:hover{
   font-size: 60px;
   color:var(--primary-color);
 }
+
+/* Courasel cards*/
+
+
 
 /* My Services CSS */
 .services .boxes{
