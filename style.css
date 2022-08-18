@@ -494,13 +494,13 @@ section .button button:hover{
 /* Footer CSS */
 footer{
   background:var(--primary-color);
-  padding:15px 0;
+  padding:12px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 footer .text span{
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   color:var(--white-color);
 }
 footer .text span a{
