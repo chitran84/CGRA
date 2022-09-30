@@ -361,7 +361,10 @@ section .button button:hover{
   justify-content: space-between;
   clear: both;
 }
-
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
 .timeline-block-right {
   float: right;
 }
