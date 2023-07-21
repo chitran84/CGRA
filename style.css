@@ -519,7 +519,7 @@ footer .text span a:hover{
 /* Scroll To Top Button CSS */
 .scroll-button a{
   position:fixed;
-  bottom:50px;
+  bottom:10px;
   right:20px;
   color:var(--white-color);
   background:var(--primary-color);
