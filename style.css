@@ -267,18 +267,21 @@ section .button button:hover{
 
 /* My Skills CSS */
 .skills{
-  background:#f0f8ff;
+  background:#8be4f1;
 }
 .skills .content{
-  padding:40px 0;
+  padding:5px 0;
 }
 .skills .skills-details{
   display:flex;
   justify-content: space-between;
   align-items: center;
+  
 }
-.skills-details .text{
-  width:50%;
+.skills-details .text {
+    width: 50%;
+    position:relative;
+    top: -150px;
 }
 .skills-details p{
   color:var(--black-color);
